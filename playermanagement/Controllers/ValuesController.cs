@@ -6,7 +6,7 @@ using Microsoft.AspNetCore.Mvc;
 
 namespace playermanagement.Controllers
 {
-    [Route("api/[controller]")]
+    [Route("players/api/[controller]")]
     [ApiController]
     public class ValuesController : ControllerBase
     {
