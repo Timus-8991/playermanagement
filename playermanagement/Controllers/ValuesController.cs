@@ -14,7 +14,7 @@ namespace playermanagement.Controllers
         [HttpGet]
         public ActionResult<IEnumerable<string>> Get()
         {
-            return new string[] { "in", "player" };
+            return new string[] { "rishabh", "player" };
         }
 
         // GET api/values/5
